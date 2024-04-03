@@ -109,7 +109,7 @@ Classical music achieved a perfect area under the curve (AUC) of 1.00, showcasin
 
 All genres performed well, with AUC scores ranging from 0.94 to 0.98, indicative of the model's overall effective classification capability.
 
-The results are promising, and they reflect the model's proficiency in distinguishing between different musical elements characteristic of various genres. While the performance on Jazz & Blues and Metal & Punk indicates potential areas for refinement, the overall effectiveness of the model is evident through the high accuracy and AUC scores achieved.
+The results are promising, and they reflect the model's proficiency in distinguishing between different musical elements characteristic of various genres. While the performance on Jazz & Blues and Rock & Pop indicates potential areas for refinement, the overall effectiveness of the model is evident through the high accuracy and AUC scores achieved.
 
 ## Confusion Matrix 
 
@@ -121,7 +121,7 @@ Classical tracks were exceptionally well-classified, with a true positive rate o
 
 Electronic and World genres also saw high accuracy, although there were some instances of confusion between the two, possibly due to overlapping musical elements.
 
-Jazz & Blues and Metal & Punk genres were more challenging for the model, with the greatest number of misclassifications occurring between these classes and Rock & Pop.
+Rock & Pop and Metal & Punk genres were more challenging for the model, with the greatest number of misclassifications occurring between these classes and some rock & pop being classified as world.
 
 ## Normalized Confusion Matrix
 
@@ -131,9 +131,9 @@ The normalized confusion matrix further refines our understanding:
 
 Classical genre classification is nearly perfect with a score of 0.99, signifying a robust identification of this genre.
 
-Electronic stands strong at 0.89, though it seems to be occasionally confused with Rock & Pop.
+Electronic stands strong at 0.89, though it seems to be occasionally confused with world and Rock & Pop.
 
-Jazz & Blues has the lowest diagonal value of 0.65, indicating room for improvement, especially distinguishing from Rock & Pop.
+Metal & Punk has the lowest diagonal value of 0.60, indicating room for improvement, especially distinguishing from Rock & Pop.
 
 The other genres show a fair level of accuracy with some room for improvement in cross-genre differentiation.
 
