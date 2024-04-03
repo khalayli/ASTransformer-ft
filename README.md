@@ -40,7 +40,7 @@ Lim et al. (2012): Acoustic features reaching an accuracy of 89.9%.
 
 Nanni et al.: A combination of visual (LPB-HF, LBP, RICLBP) and acoustic features (DFB, OSC) for an accuracy of 90.2%.
 
-Costa et al. (2017) also reported an accuracy of 85.9% with CNN for music classification using spectrograms on the ISMIR 2004 dataset.
+**Costa et al. (2017) also reported an accuracy of 85.9% with CNN for music classification using spectrograms on the ISMIR 2004 dataset.**
 
 ### Why Transformers?
 
